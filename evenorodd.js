@@ -1,0 +1,14 @@
+// 4.Write a function that checks if a number is even or odd.
+function isEvenOrOdd(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(isEvenOrOdd(4));  
+console.log(isEvenOrOdd(7));   
+console.log(isEvenOrOdd(0));   
+console.log(isEvenOrOdd(-2));  
+console.log(isEvenOrOdd(-5));  
